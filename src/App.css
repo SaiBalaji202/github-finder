@@ -377,6 +377,11 @@ table th {
   color: var(--light-color);
 }
 
+.navbar a.active {
+  background-color: var(--light-color);
+  color: var(--primary-color);
+}
+
 .navbar .welcome span {
   margin-right: 0.6rem;
 }

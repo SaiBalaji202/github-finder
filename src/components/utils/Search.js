@@ -66,7 +66,8 @@ class Search extends Component {
               outline: 'none',
               border: '1px solid #000',
               ':focus': {
-                borderColor: 'var(--primary-color)',
+                // borderColor: 'var(--primary-color)',
+                border: '1px solid var(--primary-color)',
               },
             }}
             value={this.state.searchText}
